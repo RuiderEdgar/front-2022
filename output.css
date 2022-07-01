@@ -1,0 +1,73 @@
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.blog .process {
+  margin-bottom: 25px;
+}
+.blog .process > div > h3 {
+  color: #135359;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.card .card-body .metadata .category {
+  color: #67b54b;
+}
+.card .card-body .metadata .read-time {
+  color: #979797;
+}
+.card .card-body .card-text {
+  color: #4a4a4a;
+}
+.card .card-body .card-text span > a {
+  border-bottom: 1px solid #4a4a4a;
+}
+.card .card-body .author img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  height: 50px;
+}
+.card .card-body .author p {
+  color: #4a4a4a;
+}
+
+/*# sourceMappingURL=output.css.map */

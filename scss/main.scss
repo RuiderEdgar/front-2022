@@ -1,0 +1,86 @@
+@use 'global' as *;
+
+.blog {
+    background-color: #ffffff;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-title;
+    }
+    .process-list {
+    margin-top: 40px;
+    margin-bottom: 36px;
+    }
+    .process {
+        
+        margin-bottom: 25px;
+        
+        & > div {
+            & > h3 {
+                color: $dark-green-text;
+                margin-bottom: 0;
+                font-size: 30px;
+                font-weight: 500;
+            }
+            & > p{
+                color: $dark-green-text;
+                margin: 0;
+            }
+        }
+        .process-icon {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            text-align: center;
+    
+            img {
+                height: 100%;
+            }
+        }
+    }
+    button{
+        height: auto;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+}
+
+.card{
+    .card-body{
+        .metadata{
+            .category{
+                color: $light-green;
+            }
+            .read-time{
+                color: $light-gray;
+            }
+        }
+        .card-text{
+            color: $gray;
+            span > a {
+                border-bottom: 1px solid $gray;
+            }
+        }
+        .author {
+            img {
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                height: 50px;
+            }
+            p{
+                color: $gray;
+            }
+        } 
+    }
+}
+
